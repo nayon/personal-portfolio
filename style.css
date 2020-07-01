@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+h2{
+    color: rgba(255, 2, 192, 0.952) ;
+    font-size: 40px;
+}
+h3{
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    color: dimgray;
+    padding-bottom: 30px;
+}
+
+.banner-site{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.banner-site img{
+    width: 100%;
+}
+.first-banner{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;  
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(252, 19, 201), rgb(252, 17, 173));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+section{
+    height: 450px;
+    padding-bottom: 150px;
+}
+.second-banner{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.work-part {
+    width: 20%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.work-part img{
+    height: 450px;
+    width: 400px;
+}
+.third-part{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.third-part h3{
+    margin-bottom: 70px;
+    padding-top: 30px;
+}
+.fourth-area{
+    margin: 0 40%;
+
+}
+.fourth-area h5{
+    text-align: center;
+}
+.fourth-area p{
+    text-align: center;
+}
+#special{
+    box-shadow: 10px 10px 40px  white;
+    border-radius: 10px;
+    height: 30%;
+    background-color: rgb(233, 5, 184);
+    width: 30%;
+    align-items: center;
+    margin-left: 35%;
+}
+.fourth-part{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.five{
+    margin-top: 20px;
+    text-align: center;
+    color: lightblue;
+}
+.five h6{
+    text-align: center;
+    padding-top: 30px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
